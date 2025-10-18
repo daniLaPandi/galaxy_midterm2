@@ -1,0 +1,76 @@
+body {
+  font-family: Orbitron, Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0d1117;
+  color: #b29e1b;
+}
+
+ul {
+  font-family: 'Georgia', Times, serif,Tahoma, Geneva, Verdana, sans-serif;
+  color: #f8f9fa;
+}
+
+.card {
+  background-color: #1b1f26;
+  color: #f8f9fa;
+  height: 700px;
+  overflow-y: auto;
+}
+
+.btn-secondary {
+  background-color: #444c5c;
+  border: none;
+}
+
+.btn-info {
+  background-color: #007bff;
+  border: none;
+}
+
+input.form-control {
+  background-color: #2a2f3a;
+  color: #f8f9fa;
+  border: none;
+}
+
+input.form-control::placeholder {
+  color: #cfcfcf;
+}
+
+#char-image {
+  transition: opacity 0.4s ease-in-out;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  height: 600px;
+  overflow: hidden;
+  object-fit: contain;
+}
+
+.margin-c {
+  margin-top: 20px;
+}
+
+.list-group-item {
+  text-transform: capitalize;
+}
+
+
+@media (max-width: 576px) {
+  .card {
+    max-width: 100% !important;
+  }
+
+  .d-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  input.form-control {
+    max-width: 100% !important;
+    margin-bottom: 0.5rem;
+  }
+}

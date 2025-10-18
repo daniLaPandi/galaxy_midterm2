@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Star Wars Encyclopedia</title>
+  <link rel="icon" href="babyYoda.jpg" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Epunda+Slab:ital,wght@0,300..900;1,300..900&family=Orbitron:wght@400..900&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container my-4">
+    <h1 class="text-center mb-4">The Galaxy</h1>
+    <h2 class="text-center mb-4">Star Wars Encyclopedia</h2>
+    <!-- Character Card -->
+<div class="card mb-7 shadow-sm mx-auto p-3" style="max-width: 1000px;">
+  <div class="row g-3">
+    <!-- Image Column -->
+    <div class="col-md-5 d-flex justify-content-center align-items-start">
+      <img id="char-image" src="starwars.jpeg" class="img-fluid rounded center" alt="Character Image">
+    </div>
+
+    <!-- Info Column -->
+    <div class="col-md-6 info-column">
+      <h2 class="card-title" id="char-name">Character Name</h2>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item" id="char-id">Character ID: Unknown</li>
+        <li class="list-group-item" id="char-species">Species: Unknown</li>
+        <li class="list-group-item" id="char-gender">Gender: Unknown</li>
+        <li class="list-group-item" id="char-height">Height: Unknown</li>
+        <li class="list-group-item" id="char-mass">Mass: Unknown</li>
+        <li class="list-group-item" id="char-homeworld">Homeworld: Unknown</li>
+        <li class="list-group-item" id="char-affiliations">Affiliations: None</li>
+        <li class="list-group-item" id="char-masters">Masters: None</li>
+        <li class="list-group-item" id="char-apprentices">Apprentices: None</li>
+        <li class="list-group-item" id="char-features">Special Features: None</li>
+      </ul>
+      <a id="char-wiki" href="#" target="_blank" class="btn btn-primary mt-3 w-100">View Wiki</a>
+    </div>
+  </div>
+</div>
+
+
+    <!-- Navigation & Search -->
+    <div class="d-flex justify-content-center gap-2 mb-4 flex-wrap margin-c">
+      <button id="prev" class="btn btn-secondary">Previous</button>
+      <button id="next" class="btn btn-secondary">Next</button>
+      <input type="text" id="search" class="form-control" placeholder="Search by name" style="max-width: 200px;">
+      <button id="search-btn" class="btn btn-info text-white">Search</button>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

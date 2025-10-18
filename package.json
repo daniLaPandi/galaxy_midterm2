@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "node": "^25.0.0",
+    "node-fetch": "^2.7.0",
+    "nodemon": "^3.1.10"
+  },
+  "name": "galaxy",
+  "version": "1.0.0",
+  "description": "Web Design Second Midterm: Galaxy",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniLaPandi/galaxy_midterm2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/daniLaPandi/galaxy_midterm2/issues"
+  },
+  "homepage": "https://github.com/daniLaPandi/galaxy_midterm2#readme"
+}
