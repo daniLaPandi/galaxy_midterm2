@@ -1,7 +1,7 @@
 # galaxy_midterm2
 Web Design Second Midterm: Galaxy
 
-We are using port 3001 (because the 3000 was already taken on my laptop)
+We are using port 3000
 
 Also though, some of the images do not load because it is an api of an api and the images are sandboxed and the browser prevents them from loading.
 
